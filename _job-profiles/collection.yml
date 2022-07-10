@@ -1,0 +1,44 @@
+collections:
+  job-profiles:
+    output: true
+    order:
+      - Cloud Administrator/.keep
+      - "Cloud Administrator/Job Profile: Cloud Administrator.md"
+      - Cloud Administrator/Steven New (IRAS).md
+      - Computer Vision Engineer/.keep
+      - "Computer Vision Engineer/Job Profile: Computer Vision Engineer.md"
+      - Computer Vision Engineer/Chandrasehar (HTX).md
+      - Cybersecurity Engineer/.keep
+      - "Cybersecurity Engineer/Job Profile: Cybersecurity Engineer.md"
+      - Cybersecurity Engineer/Heng Tian Hao (DSTA).md
+      - Data Scientist/.keep
+      - "Data Scientist/Job Profile: Data Scientist.md"
+      - Data Scientist/Eric Tan (IMDA).md
+      - Data Scientist/Jenny Zou (IHiS).md
+      - Infrastructure Engineer/.keep
+      - "Infrastructure Engineer/Job Profile: Infrastructure Engineer.md"
+      - Infrastructure Engineer/Abdillah Ali (GovTech).md
+      - Geospatial Specialist/.keep
+      - "Geospatial Specialist/Job Profile: Geospatial Specialist.md"
+      - Geospatial Specialist/Stephanie Khoo (SLA).md
+      - Geospatial & Systems Analyst/.keep
+      - "Geospatial & Systems Analyst/Job Profile: Geospatial & Systems
+        Analyst.md"
+      - Geospatial & Systems Analyst/Angelia Lau (URA).md
+      - Simulated Attack Specialist/.keep
+      - "Simulated Attack Specialist/Job Profile: Simulated Attack Specialist.md"
+      - Simulated Attack Specialist/Loke Hui Yi (GovTech).md
+      - Simulated Attack Specialist/Xavier Yeo (CSA).md
+      - Software Engineer/.keep
+      - "Software Engineer/Job Profile: Software Engineer.md"
+      - Software Engineer/Ang Chin Chuen (GovTech).md
+      - Systems Analyst/.keep
+      - "Systems Analyst/Job Profile: Systems Analyst.md"
+      - Systems Analyst/Nurul Afiqah (HDB).md
+      - Systems Engineer (SIOT)/.keep
+      - "Systems Engineer (SIOT)/Job Profile: Systems Engineer (SIOT).md"
+      - Systems Engineer (SIOT)/Teo Si Yan (GovTech).md
+      - Tech Policy Officer/.keep
+      - "Tech Policy Officer/Job Profile: Tech Policy Officer .md"
+      - Tech Policy Officer/Sindhu Achudan (SNDGO).md
+      - Tech Policy Officer/Ho Jin Chong (IMDA).md
