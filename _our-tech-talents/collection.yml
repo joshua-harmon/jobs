@@ -1,5 +1,0 @@
-collections:
-  our-tech-talents:
-    output: true
-    order:
-      - Testimonials.md

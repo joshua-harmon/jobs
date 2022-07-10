@@ -1,0 +1,10 @@
+**/dist/**
+**/node_modules/**
+.nyc_output
+**/coverage/**
+packages/rehype-webparser
+packages/rehype-minify-whitespace
+packages/prettyhtml-sort-attributes
+packages/prettyhtml-hastscript
+packages/prettyhtml-hast-to-html
+packages/expression-parser
