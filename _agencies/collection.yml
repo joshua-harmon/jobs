@@ -1,0 +1,5 @@
+collections:
+  agencies:
+    output: true
+    order:
+      - List of Agencies.md

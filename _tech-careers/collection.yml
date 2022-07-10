@@ -1,0 +1,11 @@
+collections:
+  tech-careers:
+    output: true
+    order:
+      - Application Design, Development & Deployment.md
+      - Cybersecurity.md
+      - Data Science & AI.md
+      - Geospatial.md
+      - ICT Infrastructure.md
+      - Sensors & Internet of Things.md
+      - Tech Policy & Governance.md
