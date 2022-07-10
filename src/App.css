@@ -1,0 +1,201 @@
+/* Override defaults */
+html,
+body,
+.col {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Include border and padding in element width and height */
+* {
+  box-sizing: border-box;
+}
+
+/* Custom properties */
+:root {
+  --text-light: #fff;
+  --text-secondary: #bababa;
+
+  --bg-color-main: #090909;
+  --bg-color-secondary: #333333;
+}
+
+/* Branding / Styling */
+
+body {
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  color: var(--text-light);
+  /* background-position: center; */
+  background-size: cover;
+  background-image: linear-gradient(
+    var(--bg-color-main),
+    var(--bg-color-secondary)
+  );
+  text-align: center;
+}
+
+.app-name {
+  font-weight: 700;
+  margin: 3vh auto 2vh;
+  letter-spacing: .1rem;
+}
+
+/* Layout */
+
+.rocket-column {
+  padding: 3%;
+}
+
+.launch-column {
+  padding: 3% 6%;
+}
+
+.main-carousel {
+  min-width: 100vw;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  padding-bottom: 30px;
+  width: 4%;
+}
+
+.rocket-display {
+  display: flex;
+}
+
+.rocket-image {
+  min-height: 75vh;
+}
+
+.launch-patch {
+  max-height: 18vh;
+  margin: 8%;
+}
+
+/* Accordion styles */
+
+.accordion {
+  min-width: 100%;
+  border-style: none;
+}
+
+.accordion .card {
+  margin: 0 auto 1.5rem;
+  background-color: transparent;
+  border-style: none;
+  max-width: 80%;
+}
+
+.accordion .card-body {
+  padding: 0;
+}
+
+.accordion-header {
+  border-bottom: 2px solid white;
+}
+
+/* .btn-link is accordion headers */
+.btn-link {
+  color: var(--text-light); /* Override react-bootstrap styling */
+  font-size: 1.25rem;
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-link:visited {
+  text-decoration: none;
+  font-weight: 700;
+  color: var(--text-light);
+}
+
+/* Table styles */
+
+.table {
+  color: var(--text-light);
+}
+
+.table tr:hover {
+  color: var(--text-secondary);
+}
+
+.table td {
+  padding: 3%;
+}
+
+.table tr {
+  display: flex;
+}
+
+.data-label {
+  width: 50%;
+  text-align: left;
+}
+
+.data-value {
+  width: 50%;
+  text-align: left;
+}
+
+/* Mission Specific Layout*/
+
+.mission-name-container {
+  display: flex;
+}
+
+.mission-name,
+.launch-num {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.success {
+  color: chartreuse;
+}
+
+.failure {
+  color: crimson;
+}
+
+.launch-name,
+.flight-number {
+  width: 50%;
+}
+
+.launch-details {
+  padding: 20px 0;
+  text-align: left;
+}
+
+
+/* Mobile Styles */
+
+@media (hover: none) { 
+
+  .app-name {
+    font-size: 2.5rem;
+    letter-spacing: 0;
+  }
+
+  .rocket-column {
+    padding: 3% 0;
+  }
+
+  .rocket-image {
+    min-height: 60vh;
+    margin-bottom: 2.5rem;
+  }
+
+  .mission-name,
+  .launch-num {
+    font-size: 1.75rem;
+  }
+  
+}
