@@ -1,0 +1,62 @@
+.about {
+  h2 {
+    box-shadow: 0px 3px 20px 6px rgba(0, 0, 0, 0.75);
+  }
+
+  div {
+    margin: 0;
+    padding: 0 1em;
+
+    @media all and (min-width: 900px) {
+      padding: 0 8em;
+    }
+
+    button {
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8);
+      border: 2px solid #fff;
+      border-radius: .4em;
+      display: block;
+      font-size: 1em;
+      font-weight: 200;
+      letter-spacing: .4em;
+      margin: 6em auto 2em;
+      padding: .8em;
+      text-transform: uppercase;
+      transition:
+        background-color 1s linear,
+        border-color 1s linear;
+
+      a {
+        transition: color 1s linear,
+      }
+
+      &:hover {
+        background-color: rgba(0, 0, 0, .1);
+        border-color: #000;
+
+        a {
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 2em;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .wrapper2 {
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin: 0 auto 2em;
+    text-align: center;
+    width: 100%;
+  }
+}

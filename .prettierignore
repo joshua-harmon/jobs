@@ -36,6 +36,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Netlify functions
+.netlify/
+
 # Typescript v1 declaration files
 typings/
 
@@ -52,11 +55,7 @@ typings/
 *.tgz
 
 # dotenv environment variable files
-.env
-.env.local
-.env.development
-.env.staging
-.env.production
+.env*
 
 # gatsby files
 .cache/
@@ -73,10 +72,7 @@ yarn-error.log
 .yarn-integrity
 
 # Local development lambda
-# /lambda
+/lambda
 
 # Vim junk
 *.swp
-
-# Local Netlify folder
-.netlify
