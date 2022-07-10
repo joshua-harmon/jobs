@@ -1,33 +1,34 @@
-![alt text](https://berksaribas.github.io/img/vuetifychat.png)
+# Group Chatting Application
+---
+## Demo
+https://group-chatting.netlify.com/
 
-A chat built with Vue + Vuex + Vuetify + Firebase.
-## Features
-* Basic authentication with Firebase
-* Create chat rooms, join them
-* Use emoji-picker to express your emotions.
-* Scroll up to load previous messages.
+## Loging into the page
+When logging into the application, all users who are already logged in will be notified that a new user has just entered the room.
 
-## Live Demo
-https://mutfak-chat.firebaseapp.com
+![Login Page](src/assets/Gifs/Login.gif)
 
-## Build Setup
+## Chatting in the app
+Right on the left side, you can see all the users who are in the room with you. 
 
-``` bash
-# install dependencies
-npm install
+> PS: This is the standard for **desktop** devices or any other larger device.
 
-# serve with hot reload at localhost:8080
-npm run serve
+![Login Page](src/assets/Gifs/Chatting.gif)   
+*On the left side, the application opened on a desktop device and, on the right, the app opened on a mobile phone.*
 
-# build for production with minification
-npm run build
+## What about using the app on a mobile device?
+If you are using a cell phone or any other small screen device, just click on the three dots up in the top right corner, and you will see all the users who are in the room.
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+![Login Page](src/assets/Gifs/UsersInTheRoom.gif)
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### Hit me up on one of my social medias :)
 
-## Configuration
+[Facebook](https://www.facebook.com/profile.php?id=100004301021977 'My facebook')  |  [Instagram](https://www.instagram.com/mrlsk8/ 'My instagram')  |  [Linkedin](https://www.linkedin.com/in/mrlsk8/ 'My linkedin')
 
-Edit main.js to initialize your Firebase App.
+## License :memo::
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author :man_technologist::
+
+Made with :heart: by **Marcelo Lima** 😊
