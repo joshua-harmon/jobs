@@ -1,75 +1,94 @@
 <template>
-  <div>
-    <header>
-    </header>
-    <JobList></JobList>
+  <div id="app">
+    <JobsIndex />
   </div>
 </template>
 
 <script>
-import JobList from './components/JobList.vue'
+import JobsIndex from './components/JobsIndex.vue'
 
 export default {
   name: 'App',
   components: {
-    JobList
+    JobsIndex
   }
 }
 </script>
 
-<style>
-
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap');
-
-#app {
-  font-family: 'Spartan', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  
-}
-
-:root {
-    --desaturatedDarkCyan: hsl(180, 29%, 50%);
-    --lightGrayishCyanBg: hsl(180, 52%, 96%); /* bg */
-    --lightGrayishCyan: hsl(180, 31%, 95%); /* filter, tables */
-    --darkGrayishCyan: hsl(180, 8%, 52%);
-    --veryDarkGrayishCyan: hsl(180, 14%, 20%);
-}
-
-* { 
-  padding: 0;
-  margin: 0;
+<style lang="scss">
+* {
   box-sizing: border-box;
 }
 
-body {
-    background-color: var(--lightGrayishCyanBg);
-    font-family: 'Spartan', sans-serif;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #efefef;
 }
 
-header {
-  height: 150px;
-  width: 100vw;
-  background-color: var(--desaturatedDarkCyan);
-  background-image: url(../public/images/bg-header-desktop.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  margin-bottom: 3rem;
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  padding: 24px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-@media(max-width: 600px) {
-  header {
-    background-image: url(../public/images/bg-header-mobile.svg);
+.JobsTracker {
+  &-button {
+    padding: 8px;
+    margin-right: 16px;
+    min-width: 96px;
+    border: 0;
+    box-shadow: 0 2px 4px #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.225s;
+    background-color: #0ff;
+
+    &:hover {
+      box-shadow: 0 4px 8px #ccc;
+      background-color: darken(#0df, 8%);
+    }
+
+    &--danger {
+      background-color: #f55;
+
+      &:hover {
+        background-color: darken(#f55, 8%);
+      }
+    }
+  }
+
+  &-control {
+    margin-bottom: 8px;
+
+    &--l {
+      input {
+        width: 100%;
+      }
+      
+      textarea {
+        width: 100%;
+        height: 200px;
+      }
+    }
+  }
+
+  &-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-right: 8px;
+
+    &::placeholder {
+      color: #aaa;
+    }
+  }
+
+  &-label {
+    display: block;
   }
 }
-
 </style>
