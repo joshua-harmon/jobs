@@ -1,0 +1,102 @@
+.App {
+  background-color: rgb(236, 244, 245);
+}
+
+.allJobs {
+    width: 75rem;
+    background-color: rgb(231, 236, 236);
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    /* padding: 1rem; */
+    margin-bottom: 1rem;
+}
+
+.oneJob {
+    width: 50rem;
+    background-color: snow;
+    /* border:0.25rem solid rgb(0, 17, 0); */
+    border-radius: 0.5rem;
+    margin:auto;
+    padding-left: 2rem;
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: space-between;
+    box-shadow: rgb(27, 52, 61);
+}
+
+.oneJob--borderLeft {
+  border-left: 5px solid hsl(180, 29%, 50%);
+}
+
+.class1 {
+  display: flex;
+  flex-direction: space-between;
+  margin: 0.2rem;
+  padding: 0.1rem;
+}
+ .class2 {
+  display: flex;
+  /* flex-direction: space-between; */
+  /* margin: 0.2rem; */
+  /* padding: 0.1rem; */
+ }
+
+ .class3 {
+   /* float:right; */
+   text-align: center;
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 4rem;
+  padding: 0rem 0.5rem 0rem 5rem;
+  
+ }
+ .main1 {
+   display: flex;
+   flex-direction: space-between;
+   margin:0.2rem;
+   padding: 0.1rem;
+ }
+
+.new {
+  color:hsl(180, 17%, 90%);
+  background-color: #066464;
+  border-radius: 25px;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.star {
+  /* float: right; */
+  /* padding: 0.1rem; */
+  margin: 0.1rem;
+  background-color: #d7f5f5;
+  border-radius: 0.3rem;
+}
+
+.featured {
+  color:rgb(242, 247, 248);
+  background-color: rgb(10, 10, 10);
+  border-radius: 25px;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.comName {
+  color:#066464;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.header-img {
+  background-color:  #022e2c;
+  opacity: 0.5;
+  color: white;
+  width: 75rem;
+}
+
+.compLogo {
+  width: 20rem;
+  height: 5rem;
+  border-radius: 50%;
+}
