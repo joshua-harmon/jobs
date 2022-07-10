@@ -1,5 +1,10 @@
-node_modules/
-dist/
-site/data/webpack.json
-/npm-debug.log
-yarn-error.log
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
+*.DS_Store
+.DS_Store
+node_modules
+.jekyll-cache
+.jekyll-metadata
