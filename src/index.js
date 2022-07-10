@@ -1,6 +1,4 @@
-// JS Goes here - ES6 supported
+import * as Apify from './main';
 
-import "./css/main.css";
-
-// Say hello
-console.log("🦊 Hello! Edit me in src/index.js");
+export default Apify;
+export * from './main';
